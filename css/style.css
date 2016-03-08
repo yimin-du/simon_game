@@ -1,0 +1,69 @@
+body {
+	background-color: #EEF5DB;
+}
+
+h1 {
+	width: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #513B56;
+}
+
+div.container {
+	//border: solid 1px;
+	width: 330px;
+	height: 400px;
+	
+	margin-top: 3%;
+}
+div.gameBtn {
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+	border-radius: 10%;
+}
+
+div.controls {
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+label.checkbox-inline {
+	float: right;
+	margin-right: 30px;
+	font-family: monospace;
+}
+
+#c0{
+	background-color: #708B75;
+}
+
+#c1{
+	background-color: #EF233C;
+}
+
+#c2{
+	background-color: #05668D;
+}
+
+#c3{
+	background-color: #FDE74C;
+}
+
+p {
+	margin-top: 10px;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.clickable{
+  pointer-events : auto;
+  cursor:pointer;
+}
+
+.unclickable{
+  pointer-events:none;
+}
